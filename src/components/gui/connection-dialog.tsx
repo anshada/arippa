@@ -14,12 +14,12 @@ export default function ConnectingDialog({
   const { name, onBack } = useConfig();
 
   const isElectron = useMemo(() => {
-    return typeof window !== "undefined" && window.outerbaseIpc;
+    return typeof window !== "undefined" && window.arippaIpc;
   }, []);
 
   const onElectronBack = () => {
-    if (window.outerbaseIpc?.close) {
-      window.outerbaseIpc?.close();
+    if (window.arippaIpc?.close) {
+      window.arippaIpc?.close();
     }
   };
 

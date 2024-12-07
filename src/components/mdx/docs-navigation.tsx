@@ -63,7 +63,7 @@ export function DocNavigation({
       <div className="hidden md:block fixed left-0 top-0 bottom-0 w-[300px] border-r overflow-y-auto">
         <div className="p-4 border-b">
           <div className="text-sm">
-            Outerbase <strong>Studio</strong>
+            arippa <strong>Studio</strong>
           </div>
           <div className="text-xl font-semibold">{title}</div>
         </div>

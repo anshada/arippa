@@ -81,17 +81,17 @@ class ElectronConnection {
   }
 
   query(stmt: string): Promise<DatabaseResultSet> {
-    return window.outerbaseIpc.query(stmt);
+    return window.arippaIpc.query(stmt);
   }
 
   transaction(stmts: string[]): Promise<DatabaseResultSet[]> {
-    return window.outerbaseIpc.transaction(stmts);
+    return window.arippaIpc.transaction(stmts);
   }
 }
 
 export class IframeSQLiteDriver extends SqliteLikeBaseDriver {
   protected conn =
-    typeof window !== "undefined" && window?.outerbaseIpc
+    typeof window !== "undefined" && window?.arippaIpc
       ? new ElectronConnection()
       : new IframeConnection();
 
@@ -121,7 +121,7 @@ export class IframeSQLiteDriver extends SqliteLikeBaseDriver {
 
 export class IframeMySQLDriver extends MySQLLikeDriver {
   protected conn =
-    typeof window !== "undefined" && window?.outerbaseIpc
+    typeof window !== "undefined" && window?.arippaIpc
       ? new ElectronConnection()
       : new IframeConnection();
 
@@ -144,7 +144,7 @@ export class IframeMySQLDriver extends MySQLLikeDriver {
 
 export class IframePostgresDriver extends PostgresLikeDriver {
   protected conn =
-    typeof window !== "undefined" && window?.outerbaseIpc
+    typeof window !== "undefined" && window?.arippaIpc
       ? new ElectronConnection()
       : new IframeConnection();
 

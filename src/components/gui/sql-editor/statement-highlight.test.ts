@@ -81,7 +81,7 @@ END; SELECT * FROM hello`)
 
   test("should be able to split statement with BEGIN with no end", () => {
     expect(
-      mysql(`SELECT * FROM outerbase; CREATE TRIGGER upd_check BEFORE UPDATE ON account
+      mysql(`SELECT * FROM arippa; CREATE TRIGGER upd_check BEFORE UPDATE ON account
 FOR EACH ROW
 BEGIN
     IF NEW.amount < 0 THEN
@@ -89,7 +89,7 @@ BEGIN
     ELSEIF NEW.amount > 100 THEN
         SET NEW.amount = 100;`)
     ).toEqual([
-      "SELECT * FROM outerbase;",
+      "SELECT * FROM arippa;",
       `CREATE TRIGGER upd_check BEFORE UPDATE ON account
 FOR EACH ROW
 BEGIN

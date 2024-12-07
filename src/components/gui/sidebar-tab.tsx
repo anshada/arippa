@@ -55,7 +55,7 @@ export default function SidebarTab({ tabs }: Readonly<SidebarTabProps>) {
               <div
                 className="w-[250px] h-[120px] mb-2 rounded flex flex-col justify-end m-1"
                 style={{
-                  background: "url(/outerbase-banner.jpg)",
+                  background: "url(/arippa-banner.jpg)",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
@@ -64,7 +64,7 @@ export default function SidebarTab({ tabs }: Readonly<SidebarTabProps>) {
                   className="p-1 text-white px-2"
                   style={{ background: "#000C" }}
                 >
-                  <div className="font-bold">Outerbase Studio</div>
+                  <div className="font-bold">Arippa Studio</div>
                   <div className="text-xs -mt-0.5">
                     v{process.env.NEXT_PUBLIC_STUDIO_VERSION}
                   </div>
@@ -97,7 +97,7 @@ export default function SidebarTab({ tabs }: Readonly<SidebarTabProps>) {
               <DropdownMenuItem inset>
                 <Link
                   className="block w-full"
-                  href="https://github.com/outerbase/studio/issues"
+                  href="https://github.com/arippa/studio/issues"
                   target="_blank"
                 >
                   Report issues
@@ -106,7 +106,7 @@ export default function SidebarTab({ tabs }: Readonly<SidebarTabProps>) {
               <DropdownMenuItem inset>
                 <Link
                   className="block w-full"
-                  href="https://www.outerbase.com/about/"
+                  href="https://www.arippa.com/about/"
                   target="_blank"
                 >
                   About us

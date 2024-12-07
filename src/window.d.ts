@@ -5,6 +5,6 @@ export {};
 declare global {
   interface Window {
     internalPubSub: InternalPubSub;
-    outerbaseIpc?: any;
+    arippaIpc?: any;
   }
 }

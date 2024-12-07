@@ -35,7 +35,7 @@ function HeroSection() {
         <p className="my-12 text-center">
           <Link
             className="bg-primary text-primary-foreground px-4 py-4 font-bold rounded-lg"
-            href="https://github.com/outerbase/studio-desktop/releases"
+            href="https://github.com/arippa/studio-desktop/releases"
           >
             Download Mac and Windows
           </Link>
@@ -70,7 +70,7 @@ export default function DatabaseMySqlPage() {
         <pre className="my-4 p-4 border-2 bg-zinc-900 text-white rounded">
           <div>
             &gt;&nbsp;npx{" "}
-            <span className="text-yellow-500 mr-2">@outerbase/studio</span>
+            <span className="text-yellow-500 mr-2">@arippa/studio</span>
             <span className="text-green-500">
               mysql://root:123@localhost:3306/chinook
             </span>
@@ -92,7 +92,7 @@ export default function DatabaseMySqlPage() {
           <div>
             <div>
               &gt;&nbsp;npx{" "}
-              <span className="text-yellow-500 mr-2">@outerbase/studio</span> \
+              <span className="text-yellow-500 mr-2">@arippa/studio</span> \
             </div>
             <div className="ml-8">--port=5000 \</div>
             <div className="ml-8">--user=admin --pass=123 \</div>
@@ -111,7 +111,7 @@ export default function DatabaseMySqlPage() {
         <p>
           Tired of typing long connection strings repeatedly? Simply save the
           configuration to a file and use it whenever needed. Create{" "}
-          <span className="font-mono text-white">outerbase.json</span>
+          <span className="font-mono text-white">arippa.json</span>
         </p>
 
         <pre className="my-4 p-4 border-2 bg-zinc-900 text-white rounded">
@@ -131,7 +131,7 @@ export default function DatabaseMySqlPage() {
         <p>
           Next, run our command line tool to start the service. By default, it
           will search for the{" "}
-          <span className="font-mono text-white">outerbase.json</span>{" "}
+          <span className="font-mono text-white">arippa.json</span>{" "}
           configuration file. Alternatively, you can specify a custom
           configuration using the{" "}
           <span className="font-mono text-white">--config</span> flag.
@@ -140,7 +140,7 @@ export default function DatabaseMySqlPage() {
         <pre className="my-4 p-4 border-2 bg-zinc-900 text-white rounded">
           <div>
             &gt;&nbsp;npx{" "}
-            <span className="text-yellow-500 mr-2">@outerbase/studio</span>
+            <span className="text-yellow-500 mr-2">@arippa/studio</span>
           </div>
         </pre>
       </div>

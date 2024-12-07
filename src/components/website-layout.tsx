@@ -13,7 +13,7 @@ async function Topbar() {
       <div className="mx-auto container flex">
         <Link href="/">
           <h1 className="text-lg py-2 text-white">
-            Outerbase <strong>Studio</strong>
+            arippa <strong>Studio</strong>
           </h1>
         </Link>
         <div className="grow flex items-center ml-3">
@@ -52,9 +52,9 @@ function Footer() {
       <div className="grid grid-cols-2 lg:grid-cols-4 mb-8">
         <div className="mb-8">
           <h1 className="text-lg text-white">
-            Outerbase <strong>Studio</strong>
+            arippa <strong>Studio</strong>
           </h1>
-          <p>© 2024 Outerbase Inc.</p>
+          <p>© 2024 arippa Inc.</p>
         </div>
 
         <div className="mb-8">
@@ -81,7 +81,7 @@ function Footer() {
           <ul className="flex flex-col gap-1 mt-3">
             <li>
               <Link
-                href="https://www.outerbase.com/about/"
+                href="https://www.arippa.com/about/"
                 className="hover:underline"
               >
                 About
@@ -89,14 +89,14 @@ function Footer() {
             </li>
             <li>
               <Link
-                href="https://www.outerbase.com/blog/"
+                href="https://www.arippa.com/blog/"
                 className="hover:underline"
               >
                 Blog
               </Link>
             </li>
             <li>
-              <Link href="https://x.com/outerbase" className="hover:underline">
+              <Link href="https://x.com/arippa" className="hover:underline">
                 Twitter
               </Link>
             </li>

@@ -240,7 +240,7 @@ function CommunitySection() {
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-        <DatabaseBlock link="https://github.com/outerbase/libsql-studio">
+        <DatabaseBlock link="https://github.com/arippa/libsql-studio">
           <svg
             width="98"
             height="96"
@@ -272,7 +272,7 @@ function CommunitySection() {
           </svg>
           <div className="font-bold mt-1">Discord</div>
         </DatabaseBlock>
-        <DatabaseBlock link="https://x.com/outerbase">
+        <DatabaseBlock link="https://x.com/arippa">
           <svg
             className="w-8 h-8"
             width="1200"
@@ -310,14 +310,14 @@ export default async function MainPage() {
             {WEBSITE_NAME} has many features and is regularly updated. Since it
             is an{" "}
             <Link
-              href="https://github.com/outerbase/libsql-studio"
+              href="https://github.com/arippa/libsql-studio"
               className="border-b-4 inline-block hover:border-yellow-500"
             >
               open-source
             </Link>{" "}
             project, you can{" "}
             <Link
-              href="https://github.com/outerbase/libsql-studio/issues"
+              href="https://github.com/arippa/libsql-studio/issues"
               className="border-b-4 inline-block hover:border-yellow-500"
             >
               request new features

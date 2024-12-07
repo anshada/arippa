@@ -41,7 +41,7 @@ function HeroSection() {
         <p className="my-12 text-center">
           <Link
             className="bg-primary text-primary-foreground px-4 py-4 font-bold rounded-lg"
-            href="https://github.com/outerbase/studio-desktop/releases"
+            href="https://github.com/arippa/studio-desktop/releases"
           >
             Download Mac and Windows
           </Link>
