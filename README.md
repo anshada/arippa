@@ -1,10 +1,10 @@
-# Outerbase Studio
+# Arippa
 
-**Outerbase Studio** is a lightweight, browser-based GUI for managing SQL databases, designed for simplicity and versatility. Initially built for LibSQL and SQLite, it now supports a broad range of databases, including:
+**Arippa** is an AI-powered, browser-based platform for managing SQL databases, designed for simplicity and collaboration. Built with modern teams in mind, it combines powerful database management capabilities with intuitive AI features.
 
 **Supported Databases:**
 
-- **SQLite-based Database**
+- **SQLite-based Databases**
   - Turso/LibSQL
   - SQLite (local files)
   - Cloudflare D1
@@ -16,24 +16,55 @@
 
 ---
 
-Give it a try directly from your browser
+Try Arippa directly in your browser:
 
-[![LibSQL Studio, sqlite online editor](https://github.com/user-attachments/assets/5d92ce58-9ce6-4cd7-9c65-4763d2d3b231)](https://libsqlstudio.com)
-[![Libsql studio playground](https://github.com/user-attachments/assets/dcf7e246-fe72-4351-ab10-ae2d1658087d)](https://libsqlstudio.com/playground/client?template=chinook)
+[![Arippa Database Studio](https://github.com/user-attachments/assets/5d92ce58-9ce6-4cd7-9c65-4763d2d3b231)](https://arippa.dev)
+[![Arippa Playground](https://github.com/user-attachments/assets/dcf7e246-fe72-4351-ab10-ae2d1658087d)](https://arippa.dev/playground/client?template=chinook)
 
 ## Desktop App
 
-You can download [Windows and Mac desktop app here](https://github.com/outerbase/studio-desktop/releases/).
+Download the [Windows and Mac desktop apps here](https://github.com/arippa/desktop/releases/).
 
-Outerbase Studio Desktop is a lightweight Electron wrapper for the Outerbase Studio web version. It enables support for drivers that aren't feasible in a browser environment, such as MySQL and PostgreSQL.
+Arippa Desktop is a lightweight Electron wrapper that enables support for drivers not available in browser environments, such as MySQL and PostgreSQL.
 
-## Features
+## Key Features
 
-![libsqlstudio-git-preview (7)](https://github.com/user-attachments/assets/1d7a3d90-61e3-4a77-83a5-4bb096bbfb4b)
+![arippa-preview](https://github.com/user-attachments/assets/1d7a3d90-61e3-4a77-83a5-4bb096bbfb4b)
 
-- **Query Editor**: It features a user-friendly query editor equipped with auto-completion and function hint tooltips. It allows you to execute multiple queries simultaneously and view their results efficiently.
-- **Data Editor**: It comes with a powerful data editor, allowing you to stage all your changes and preview them before committing. The data table is highly optimized and lightweight, capable of rendering thousands of rows and columns efficiently.
-- **Schema Editor**: It allows you to quickly create, modify, and remove table columns with just a few clicks without writing any SQL.
-- **Connection Manager**: It includes a flexible connection manager, allowing you to store your connections locally in your browser. You can also store them on a server and share your connections across multiple devices.
+### Core Features
 
-The features mentioned above are just a few of the many we offer. Give it a try to explore everything we have in store.
+- **AI-Powered Query Editor**: 
+  - Natural language query support with EZQL™
+  - Smart auto-completion and function hints
+  - Multi-query execution with parallel results
+
+- **Intelligent Data Editor**: 
+  - Powerful staging system for reviewing changes
+  - Optimized for handling thousands of rows
+  - Spreadsheet-like interface for intuitive editing
+
+- **Visual Schema Editor**: 
+  - No-code table and column management
+  - AI-assisted schema optimization
+  - Quick modifications without SQL
+
+- **Smart Connection Manager**: 
+  - Local or cloud-based connection storage
+  - Secure credential management
+  - Cross-device connection sharing
+
+### Collaboration Features
+
+- Role-based access control
+- Team sharing capabilities
+- Real-time collaboration tools
+- Comments and annotations
+
+### Security
+
+- Data encryption
+- Two-factor authentication
+- Custom access controls
+- SSH tunneling support
+
+Try Arippa today to experience the future of database management. Join our open-source community and help shape the future of data collaboration.
